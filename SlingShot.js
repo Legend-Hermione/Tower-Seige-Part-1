@@ -23,7 +23,7 @@ class SlingShot{
         strokeWeight(4);
         stroke(color(48,22,8));
         line(pointA.x-20, pointA.y, pointB.x-5, pointB.y);
-        line(pointA.x-20, pointA.y, pointB.x+40, pointB.y-3);
+ 
         image(this.img3,pointA.x-30,pointA.y-10,10,30);
         }      
     }

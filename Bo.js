@@ -14,7 +14,7 @@ class Bo {
     }
     display(){
       
-      if(this.body.speed <4){
+     
         var pos =this.body.position;
       var angle = this.body.angle;
       push();
@@ -24,15 +24,7 @@ class Bo {
       fill("pink");
       rect(0,0, this.width, this.height);
       pop();
-      }
-       else{
-        World.remove(world, this.body);
-        push();
-            this.Visiblity = this.Visiblity - 0.1;
-            fill(this.Visiblity);
-            pop();
-        }
-      }
       
     
-  };
+  }
+}
